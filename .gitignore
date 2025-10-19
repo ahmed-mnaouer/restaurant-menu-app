@@ -1,1 +1,15 @@
-"myenv/" 
+# Virtual environment files
+Include/
+Lib/
+Scripts/
+var/
+pyvenv.cfg
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env

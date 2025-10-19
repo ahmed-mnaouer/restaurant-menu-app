@@ -1,0 +1,226 @@
+﻿id,name,variant,course,category,ingredients,description,price,calories,country_origin,availability
+1,Salade de chèvre chaud,Chef's Special,Entrée,Classique,"oignons, bouillon, fromage, pain",Un(e) entrée populaire apprécié(e) pour sa saveur authentique.,12.09,176,Grèce,Non disponible
+2,Gaspacho andalou,Chef's Special,Entrée,Épicé,"laitue, poulet, parmesan, croûtons",Gaspacho andalou entrée préparé(e) selon une recette traditionnelle de Maroc.,13.28,279,Maroc,Non disponible
+3,Salade César,Signature,Entrée,Gourmet,"thon, maïs, olives",Un(e) entrée populaire apprécié(e) pour sa saveur authentique.,16.74,221,Grèce,Disponible
+4,Rillettes de thon,Maison,Entrée,Gourmet,"oignons, bouillon, fromage, pain",Un(e) entrée populaire apprécié(e) pour sa saveur authentique.,13.23,345,Maroc,Épuisé
+5,Soupe à l'oignon,Chef's Special,Entrée,Sans gluten,"oignons, bouillon, fromage, pain",Version équilibrée du classique Soupe à l'oignon.,13.97,161,France,Non disponible
+6,Houmous et pain pita,Chef's Special,Entrée,Sans gluten,"chèvre, miel, salade",Version équilibrée du classique Houmous et pain pita.,23.28,242,France,Non disponible
+7,Salade niçoise,Chef's Special,Entrée,Classique,"tomates, basilic, huile d'olive",Salade niçoise entrée préparé(e) selon une recette traditionnelle de Grèce.,22.83,175,Grèce,Épuisé
+8,Carpaccio de boeuf,Traditionnelle,Entrée,Gourmet,"oignons, bouillon, fromage, pain",Une spécialité suisse mettant en valeur des ingrédients frais et de qualité.,15.33,321,Suisse,Épuisé
+9,Gaspacho andalou,Chef's Special,Entrée,Épicé,"tomates, basilic, huile d'olive",Un(e) entrée populaire apprécié(e) pour sa saveur authentique.,16.93,219,Grèce,Non disponible
+10,Gaspacho andalou,Signature,Entrée,Gourmet,"laitue, poulet, parmesan, croûtons",Gaspacho andalou entrée préparé(e) selon une recette traditionnelle de Tunisie.,22.08,252,Tunisie,Épuisé
+11,Soupe à l'oignon,Signature,Entrée,Épicé,"oignons, bouillon, fromage, pain",Recette maison inspirée des saveurs de Grèce.,15.93,314,Grèce,Épuisé
+12,Bruschetta,Végétarienne,Entrée,Végétarien,"thon, maïs, olives",Version équilibrée du classique Bruschetta.,16.43,299,Italie,Épuisé
+13,Tartare de saumon,Signature,Entrée,Végétarien,"saumon, citron, herbes",Tartare de saumon entrée préparé(e) selon une recette traditionnelle de Espagne.,22.92,189,Espagne,Non disponible
+14,Bruschetta,Légère,Entrée,Épicé,"saumon, citron, herbes",Version moderne du classique Bruschetta.,24.94,285,France,Épuisé
+15,Mini quiches,Classique,Entrée,Gourmet,"laitue, poulet, parmesan, croûtons",Une spécialité grèce mettant en valeur des ingrédients frais et de qualité.,11.67,261,Grèce,Disponible
+16,Houmous et pain pita,Classique,Entrée,Gourmet,"oignons, bouillon, fromage, pain",Version gourmande du classique Houmous et pain pita.,23.69,310,Grèce,Épuisé
+17,Salade de chèvre chaud,Signature,Entrée,Végétarien,"tomates, basilic, huile d'olive",Version raffinée du classique Salade de chèvre chaud.,14.86,154,Tunisie,Disponible
+18,Tartare de saumon,Végétarienne,Entrée,Végétarien,"tomates, basilic, huile d'olive",Tartare de saumon entrée préparé(e) selon une recette traditionnelle de France.,20.98,167,France,Non disponible
+19,Rillettes de thon,Maison,Entrée,Végétarien,"saumon, citron, herbes",Une spécialité grèce mettant en valeur des ingrédients frais et de qualité.,17.92,305,Grèce,Épuisé
+20,Salade niçoise,Signature,Entrée,Gourmet,"saumon, citron, herbes",Recette maison inspirée des saveurs de Tunisie.,23.49,265,Tunisie,Disponible
+21,Salade niçoise,Signature,Entrée,Classique,"laitue, poulet, parmesan, croûtons",Version gourmande du classique Salade niçoise.,13.3,168,Tunisie,Non disponible
+22,Salade de chèvre chaud,Classique,Entrée,Végétarien,"laitue, poulet, parmesan, croûtons",Salade de chèvre chaud entrée préparé(e) selon une recette traditionnelle de France.,17.71,221,France,Non disponible
+23,Houmous et pain pita,Signature,Entrée,Épicé,"thon, maïs, olives",Un(e) entrée populaire apprécié(e) pour sa saveur authentique.,21.77,254,Italie,Disponible
+24,Soupe à l'oignon,Chef's Special,Entrée,Gourmet,"oignons, bouillon, fromage, pain",Recette maison inspirée des saveurs de Maroc.,17.01,336,Maroc,Disponible
+25,Salade de chèvre chaud,Chef's Special,Entrée,Classique,"thon, maïs, olives",Salade de chèvre chaud entrée préparé(e) selon une recette traditionnelle de Maroc.,13.73,198,Maroc,Non disponible
+26,Houmous et pain pita,Maison,Entrée,Sans gluten,"oignons, bouillon, fromage, pain",Un(e) entrée populaire apprécié(e) pour sa saveur authentique.,23.12,169,Italie,Épuisé
+27,Rillettes de thon,Chef's Special,Entrée,Classique,"chèvre, miel, salade",Rillettes de thon entrée préparé(e) selon une recette traditionnelle de Grèce.,23.9,210,Grèce,Disponible
+28,Velouté de champignons,Traditionnelle,Entrée,Sans gluten,"saumon, citron, herbes",Un(e) entrée populaire apprécié(e) pour sa saveur authentique.,15.68,249,Italie,Épuisé
+29,Rillettes de thon,Traditionnelle,Entrée,Vegan,"thon, maïs, olives",Un(e) entrée populaire apprécié(e) pour sa saveur authentique.,12.85,205,Maroc,Disponible
+30,Assiette de fromages,Classique,Entrée,Gourmet,"laitue, poulet, parmesan, croûtons",Version raffinée du classique Assiette de fromages.,17.15,285,Tunisie,Disponible
+31,Salade César,Chef's Special,Entrée,Végétarien,"chèvre, miel, salade",Un(e) entrée populaire apprécié(e) pour sa saveur authentique.,16.06,295,France,Disponible
+32,Assiette de fromages,Classique,Entrée,Épicé,"saumon, citron, herbes",Une spécialité france mettant en valeur des ingrédients frais et de qualité.,13.06,333,France,Épuisé
+33,Salade niçoise,Végétarienne,Entrée,Sans gluten,"thon, maïs, olives",Recette maison inspirée des saveurs de Italie.,14.74,342,Italie,Disponible
+34,Salade César,Traditionnelle,Entrée,Épicé,"laitue, poulet, parmesan, croûtons",Version raffinée du classique Salade César.,13.2,217,Espagne,Disponible
+35,Tartare de saumon,Chef's Special,Entrée,Végétarien,"oignons, bouillon, fromage, pain",Recette maison inspirée des saveurs de Tunisie.,22.51,330,Tunisie,Épuisé
+36,Assiette de fromages,Classique,Entrée,Gourmet,"chèvre, miel, salade",Assiette de fromages entrée préparé(e) selon une recette traditionnelle de Suisse.,24.08,184,Suisse,Épuisé
+37,Soupe à l'oignon,Chef's Special,Entrée,Gourmet,"tomates, basilic, huile d'olive",Une spécialité espagne mettant en valeur des ingrédients frais et de qualité.,19.07,333,Espagne,Épuisé
+38,Salade niçoise,Végétarienne,Entrée,Épicé,"oignons, bouillon, fromage, pain",Salade niçoise entrée préparé(e) selon une recette traditionnelle de Maroc.,19.51,220,Maroc,Disponible
+39,Salade César,Épicée,Entrée,Végétarien,"oignons, bouillon, fromage, pain",Recette maison inspirée des saveurs de Grèce.,18.28,259,Grèce,Non disponible
+40,Salade César,Chef's Special,Entrée,Classique,"tomates, basilic, huile d'olive",Une spécialité grèce mettant en valeur des ingrédients frais et de qualité.,18.74,187,Grèce,Épuisé
+41,Bruschetta,Classique,Entrée,Vegan,"laitue, poulet, parmesan, croûtons",Un(e) entrée populaire apprécié(e) pour sa saveur authentique.,20.23,320,Tunisie,Disponible
+42,Tartare de saumon,Légère,Entrée,Épicé,"tomates, basilic, huile d'olive",Un(e) entrée populaire apprécié(e) pour sa saveur authentique.,24.64,195,Grèce,Épuisé
+43,Salade César,Maison,Entrée,Gourmet,"saumon, citron, herbes",Une spécialité tunisie mettant en valeur des ingrédients frais et de qualité.,12.39,329,Tunisie,Disponible
+44,Velouté de champignons,Classique,Entrée,Sans gluten,"tomates, basilic, huile d'olive",Une spécialité italie mettant en valeur des ingrédients frais et de qualité.,14.58,208,Italie,Disponible
+45,Salade César,Signature,Entrée,Sans gluten,"oignons, bouillon, fromage, pain",Une spécialité tunisie mettant en valeur des ingrédients frais et de qualité.,15.27,280,Tunisie,Épuisé
+46,Salade de chèvre chaud,Épicée,Entrée,Classique,"oignons, bouillon, fromage, pain",Version gourmande du classique Salade de chèvre chaud.,24.44,217,France,Disponible
+47,Soupe à l'oignon,Légère,Entrée,Vegan,"oignons, bouillon, fromage, pain",Version moderne du classique Soupe à l'oignon.,24.76,179,Grèce,Épuisé
+48,Assiette de fromages,Signature,Entrée,Vegan,"thon, maïs, olives",Assiette de fromages entrée préparé(e) selon une recette traditionnelle de France.,17.8,287,France,Non disponible
+49,Gaspacho andalou,Signature,Entrée,Vegan,"laitue, poulet, parmesan, croûtons",Version équilibrée du classique Gaspacho andalou.,14.71,181,Maroc,Non disponible
+50,Carpaccio de boeuf,Végétarienne,Entrée,Gourmet,"oignons, bouillon, fromage, pain",Une spécialité maroc mettant en valeur des ingrédients frais et de qualité.,18.32,199,Maroc,Épuisé
+51,Burger maison,Légère,Plat,Gourmet,"poulet, herbes, légumes",Recette maison inspirée des saveurs de Grèce.,44.18,400,Grèce,Épuisé
+52,Pizza Margherita,Signature,Plat,Sans gluten,"boeuf, frites, sauce",Recette maison inspirée des saveurs de Suisse.,40.46,745,Suisse,Disponible
+53,Paella valenciana,Traditionnelle,Plat,Gourmet,"semoule, agneau, pois chiches, légumes",Une spécialité italie mettant en valeur des ingrédients frais et de qualité.,43.04,724,Italie,Non disponible
+54,Spaghetti bolognaise,Chef's Special,Plat,Végétarien,"poisson, citron, beurre",Un(e) plat populaire apprécié(e) pour sa saveur authentique.,30.16,423,Grèce,Disponible
+55,Tajine d'agneau,Chef's Special,Plat,Sans gluten,"semoule, agneau, pois chiches, légumes",Recette maison inspirée des saveurs de Maroc.,42.3,524,Maroc,Disponible
+56,Burger maison,Classique,Plat,Classique,"riz, fruits de mer, poivrons",Un(e) plat populaire apprécié(e) pour sa saveur authentique.,53.14,756,Suisse,Non disponible
+57,Tajine d'agneau,Classique,Plat,Épicé,"pâtes, champignons, crème",Recette maison inspirée des saveurs de Italie.,29.67,637,Italie,Non disponible
+58,Paella valenciana,Épicée,Plat,Sans gluten,"pâtes, champignons, crème",Version moderne du classique Paella valenciana.,40.61,481,Espagne,Non disponible
+59,Ratatouille provençale,Traditionnelle,Plat,Sans gluten,"pâtes, champignons, crème",Une spécialité tunisie mettant en valeur des ingrédients frais et de qualité.,51.8,666,Tunisie,Épuisé
+60,Burger maison,Signature,Plat,Vegan,"pâtes, viande hachée, sauce tomate, fromage",Un(e) plat populaire apprécié(e) pour sa saveur authentique.,34.51,563,Maroc,Non disponible
+61,Poulet rôti,Maison,Plat,Végétarien,"riz, fruits de mer, poivrons",Un(e) plat populaire apprécié(e) pour sa saveur authentique.,27.25,608,Italie,Épuisé
+62,Paella valenciana,Traditionnelle,Plat,Sans gluten,"poulet, herbes, légumes",Recette maison inspirée des saveurs de France.,56.67,699,France,Non disponible
+63,Steak frites,Légère,Plat,Sans gluten,"poisson, citron, beurre",Recette maison inspirée des saveurs de France.,54.87,888,France,Épuisé
+64,Paella valenciana,Signature,Plat,Sans gluten,"poisson, citron, beurre",Recette maison inspirée des saveurs de Italie.,26.02,572,Italie,Non disponible
+65,Burger maison,Légère,Plat,Gourmet,"pâtes, champignons, crème",Un(e) plat populaire apprécié(e) pour sa saveur authentique.,59.33,673,Italie,Disponible
+66,Risotto aux champignons,Classique,Plat,Classique,"riz, fruits de mer, poivrons",Recette maison inspirée des saveurs de Grèce.,31.36,533,Grèce,Épuisé
+67,Spaghetti bolognaise,Signature,Plat,Sans gluten,"poisson, citron, beurre",Une spécialité tunisie mettant en valeur des ingrédients frais et de qualité.,51.32,825,Tunisie,Épuisé
+68,Pizza Margherita,Chef's Special,Plat,Sans gluten,"semoule, agneau, pois chiches, légumes",Une spécialité france mettant en valeur des ingrédients frais et de qualité.,32.85,435,France,Non disponible
+69,Steak frites,Classique,Plat,Végétarien,"pâtes, champignons, crème",Version raffinée du classique Steak frites.,30.33,464,Italie,Épuisé
+70,Burger maison,Chef's Special,Plat,Épicé,"riz, fruits de mer, poivrons",Une spécialité italie mettant en valeur des ingrédients frais et de qualité.,30.87,710,Italie,Non disponible
+71,Magret de canard,Chef's Special,Plat,Végétarien,"pâtes, viande hachée, sauce tomate, fromage",Une spécialité tunisie mettant en valeur des ingrédients frais et de qualité.,45.15,864,Tunisie,Épuisé
+72,Risotto aux champignons,Signature,Plat,Classique,"semoule, agneau, pois chiches, légumes",Risotto aux champignons plat préparé(e) selon une recette traditionnelle de Espagne.,49.4,554,Espagne,Non disponible
+73,Filet de dorade,Chef's Special,Plat,Épicé,"pâtes, viande hachée, sauce tomate, fromage",Version équilibrée du classique Filet de dorade.,39.99,589,Suisse,Disponible
+74,Paella valenciana,Épicée,Plat,Classique,"riz, fruits de mer, poivrons",Paella valenciana plat préparé(e) selon une recette traditionnelle de Suisse.,40.17,585,Suisse,Non disponible
+75,Ratatouille provençale,Traditionnelle,Plat,Gourmet,"riz, fruits de mer, poivrons",Version gourmande du classique Ratatouille provençale.,58.79,538,Italie,Non disponible
+76,Sushi mixte,Traditionnelle,Plat,Sans gluten,"pâtes, champignons, crème",Une spécialité maroc mettant en valeur des ingrédients frais et de qualité.,54.81,825,Maroc,Disponible
+77,Pizza Margherita,Traditionnelle,Plat,Végétarien,"riz, fruits de mer, poivrons",Une spécialité suisse mettant en valeur des ingrédients frais et de qualité.,26.0,835,Suisse,Épuisé
+78,Lasagnes,Traditionnelle,Plat,Végétarien,"pâtes, champignons, crème",Une spécialité tunisie mettant en valeur des ingrédients frais et de qualité.,34.79,705,Tunisie,Non disponible
+79,Pizza Margherita,Classique,Plat,Épicé,"pâtes, viande hachée, sauce tomate, fromage",Recette maison inspirée des saveurs de Italie.,42.1,788,Italie,Disponible
+80,Magret de canard,Traditionnelle,Plat,Gourmet,"riz, fruits de mer, poivrons",Magret de canard plat préparé(e) selon une recette traditionnelle de Grèce.,28.26,513,Grèce,Épuisé
+81,Magret de canard,Signature,Plat,Vegan,"boeuf, frites, sauce",Recette maison inspirée des saveurs de Grèce.,44.37,576,Grèce,Épuisé
+82,Magret de canard,Épicée,Plat,Vegan,"riz, fruits de mer, poivrons",Une spécialité grèce mettant en valeur des ingrédients frais et de qualité.,33.8,461,Grèce,Non disponible
+83,Couscous royal,Épicée,Plat,Classique,"boeuf, frites, sauce",Un(e) plat populaire apprécié(e) pour sa saveur authentique.,32.57,647,Grèce,Épuisé
+84,Magret de canard,Végétarienne,Plat,Classique,"poulet, herbes, légumes",Un(e) plat populaire apprécié(e) pour sa saveur authentique.,37.63,554,Suisse,Disponible
+85,Magret de canard,Maison,Plat,Vegan,"pâtes, viande hachée, sauce tomate, fromage",Un(e) plat populaire apprécié(e) pour sa saveur authentique.,47.33,785,France,Épuisé
+86,Poulet rôti,Classique,Plat,Épicé,"riz, fruits de mer, poivrons",Recette maison inspirée des saveurs de Tunisie.,36.92,894,Tunisie,Disponible
+87,Pizza Margherita,Traditionnelle,Plat,Classique,"pâtes, viande hachée, sauce tomate, fromage",Recette maison inspirée des saveurs de Suisse.,27.59,722,Suisse,Non disponible
+88,Steak frites,Maison,Plat,Végétarien,"boeuf, frites, sauce",Steak frites plat préparé(e) selon une recette traditionnelle de Suisse.,59.79,460,Suisse,Non disponible
+89,Sushi mixte,Légère,Plat,Épicé,"pâtes, champignons, crème",Version gourmande du classique Sushi mixte.,38.31,865,Espagne,Épuisé
+90,Pizza Margherita,Légère,Plat,Vegan,"boeuf, frites, sauce",Version raffinée du classique Pizza Margherita.,58.6,450,Espagne,Disponible
+91,Burger maison,Signature,Plat,Vegan,"pâtes, viande hachée, sauce tomate, fromage",Un(e) plat populaire apprécié(e) pour sa saveur authentique.,31.08,438,Grèce,Disponible
+92,Steak frites,Légère,Plat,Sans gluten,"boeuf, frites, sauce",Une spécialité grèce mettant en valeur des ingrédients frais et de qualité.,26.14,547,Grèce,Non disponible
+93,Pizza Margherita,Traditionnelle,Plat,Classique,"poulet, herbes, légumes",Version équilibrée du classique Pizza Margherita.,48.14,878,Grèce,Disponible
+94,Risotto aux champignons,Chef's Special,Plat,Épicé,"semoule, agneau, pois chiches, légumes",Une spécialité italie mettant en valeur des ingrédients frais et de qualité.,53.93,436,Italie,Disponible
+95,Lasagnes,Végétarienne,Plat,Épicé,"pâtes, champignons, crème",Recette maison inspirée des saveurs de Grèce.,29.35,752,Grèce,Épuisé
+96,Magret de canard,Légère,Plat,Vegan,"boeuf, frites, sauce",Recette maison inspirée des saveurs de Espagne.,27.82,420,Espagne,Épuisé
+97,Magret de canard,Épicée,Plat,Épicé,"pâtes, viande hachée, sauce tomate, fromage",Un(e) plat populaire apprécié(e) pour sa saveur authentique.,58.67,828,Tunisie,Non disponible
+98,Filet de dorade,Classique,Plat,Gourmet,"poisson, citron, beurre",Un(e) plat populaire apprécié(e) pour sa saveur authentique.,41.47,733,Suisse,Épuisé
+99,Pizza Margherita,Maison,Plat,Épicé,"semoule, agneau, pois chiches, légumes",Pizza Margherita plat préparé(e) selon une recette traditionnelle de Maroc.,41.45,609,Maroc,Épuisé
+100,Spaghetti bolognaise,Chef's Special,Plat,Végétarien,"riz, fruits de mer, poivrons",Une spécialité tunisie mettant en valeur des ingrédients frais et de qualité.,48.19,605,Tunisie,Non disponible
+101,Steak frites,Traditionnelle,Plat,Classique,"poisson, citron, beurre",Steak frites plat préparé(e) selon une recette traditionnelle de Tunisie.,58.96,606,Tunisie,Non disponible
+102,Ratatouille provençale,Classique,Plat,Gourmet,"boeuf, frites, sauce",Recette maison inspirée des saveurs de Suisse.,26.9,665,Suisse,Épuisé
+103,Filet de dorade,Traditionnelle,Plat,Gourmet,"pâtes, champignons, crème",Un(e) plat populaire apprécié(e) pour sa saveur authentique.,34.35,467,Maroc,Épuisé
+104,Tajine d'agneau,Traditionnelle,Plat,Classique,"semoule, agneau, pois chiches, légumes",Un(e) plat populaire apprécié(e) pour sa saveur authentique.,35.88,407,France,Non disponible
+105,Risotto aux champignons,Chef's Special,Plat,Végétarien,"pâtes, viande hachée, sauce tomate, fromage",Risotto aux champignons plat préparé(e) selon une recette traditionnelle de Suisse.,47.67,478,Suisse,Épuisé
+106,Magret de canard,Végétarienne,Plat,Épicé,"poisson, citron, beurre",Recette maison inspirée des saveurs de Grèce.,59.31,524,Grèce,Épuisé
+107,Paella valenciana,Maison,Plat,Sans gluten,"boeuf, frites, sauce",Paella valenciana plat préparé(e) selon une recette traditionnelle de Italie.,34.67,804,Italie,Épuisé
+108,Spaghetti bolognaise,Végétarienne,Plat,Classique,"semoule, agneau, pois chiches, légumes",Version équilibrée du classique Spaghetti bolognaise.,45.3,737,Tunisie,Épuisé
+109,Ratatouille provençale,Maison,Plat,Sans gluten,"riz, fruits de mer, poivrons",Une spécialité espagne mettant en valeur des ingrédients frais et de qualité.,44.32,678,Espagne,Épuisé
+110,Tajine d'agneau,Épicée,Plat,Végétarien,"poulet, herbes, légumes",Un(e) plat populaire apprécié(e) pour sa saveur authentique.,54.96,610,Grèce,Disponible
+111,Spaghetti bolognaise,Traditionnelle,Plat,Gourmet,"riz, fruits de mer, poivrons",Un(e) plat populaire apprécié(e) pour sa saveur authentique.,42.34,418,Suisse,Disponible
+112,Paella valenciana,Épicée,Plat,Classique,"pâtes, champignons, crème",Paella valenciana plat préparé(e) selon une recette traditionnelle de Suisse.,43.41,633,Suisse,Disponible
+113,Magret de canard,Maison,Plat,Sans gluten,"semoule, agneau, pois chiches, légumes",Magret de canard plat préparé(e) selon une recette traditionnelle de Suisse.,41.43,896,Suisse,Épuisé
+114,Spaghetti bolognaise,Légère,Plat,Gourmet,"pâtes, champignons, crème",Version équilibrée du classique Spaghetti bolognaise.,38.3,562,France,Non disponible
+115,Magret de canard,Traditionnelle,Plat,Épicé,"boeuf, frites, sauce",Un(e) plat populaire apprécié(e) pour sa saveur authentique.,47.09,871,France,Épuisé
+116,Couscous royal,Chef's Special,Plat,Sans gluten,"pâtes, champignons, crème",Recette maison inspirée des saveurs de France.,30.82,553,France,Disponible
+117,Steak frites,Épicée,Plat,Classique,"poisson, citron, beurre",Recette maison inspirée des saveurs de Tunisie.,30.09,671,Tunisie,Épuisé
+118,Filet de dorade,Maison,Plat,Végétarien,"pâtes, viande hachée, sauce tomate, fromage",Version moderne du classique Filet de dorade.,48.91,654,Italie,Non disponible
+119,Lasagnes,Signature,Plat,Sans gluten,"poisson, citron, beurre",Une spécialité grèce mettant en valeur des ingrédients frais et de qualité.,48.34,860,Grèce,Épuisé
+120,Pizza Margherita,Maison,Plat,Classique,"poisson, citron, beurre",Recette maison inspirée des saveurs de Maroc.,49.16,633,Maroc,Épuisé
+121,Couscous royal,Légère,Plat,Sans gluten,"poulet, herbes, légumes",Version moderne du classique Couscous royal.,37.56,551,France,Non disponible
+122,Pizza Margherita,Classique,Plat,Gourmet,"poisson, citron, beurre",Version raffinée du classique Pizza Margherita.,55.28,798,Maroc,Non disponible
+123,Steak frites,Traditionnelle,Plat,Vegan,"pâtes, champignons, crème",Version gourmande du classique Steak frites.,53.07,512,Suisse,Non disponible
+124,Couscous royal,Végétarienne,Plat,Gourmet,"semoule, agneau, pois chiches, légumes",Couscous royal plat préparé(e) selon une recette traditionnelle de Suisse.,56.62,730,Suisse,Disponible
+125,Pizza Margherita,Traditionnelle,Plat,Classique,"poisson, citron, beurre",Pizza Margherita plat préparé(e) selon une recette traditionnelle de Espagne.,56.84,567,Espagne,Non disponible
+126,Macarons assortis,Maison,Dessert,Végétarien,"caramel, lait, beurre",Version équilibrée du classique Macarons assortis.,14.02,339,Italie,Disponible
+127,Tiramisu,Traditionnelle,Dessert,Vegan,"crème, vanille, œufs",Recette maison inspirée des saveurs de Grèce.,19.55,272,Grèce,Disponible
+128,Sorbet citron,Légère,Dessert,Épicé,"chocolat noir, œufs, sucre",Sorbet citron dessert préparé(e) selon une recette traditionnelle de Tunisie.,11.17,263,Tunisie,Épuisé
+129,Fondant au chocolat,Végétarienne,Dessert,Épicé,"citron, sucre, meringue",Fondant au chocolat dessert préparé(e) selon une recette traditionnelle de Maroc.,16.1,441,Maroc,Disponible
+130,Coulant au caramel,Épicée,Dessert,Épicé,"citron, sucre, meringue",Recette maison inspirée des saveurs de Italie.,18.91,354,Italie,Non disponible
+131,Macarons assortis,Chef's Special,Dessert,Végétarien,"chocolat noir, œufs, sucre",Recette maison inspirée des saveurs de France.,9.39,320,France,Non disponible
+132,Mousse au chocolat,Légère,Dessert,Sans gluten,"citron, sucre, meringue",Version moderne du classique Mousse au chocolat.,16.91,279,Tunisie,Épuisé
+133,Sorbet citron,Chef's Special,Dessert,Sans gluten,"fraise, mascarpone, biscuits",Sorbet citron dessert préparé(e) selon une recette traditionnelle de Espagne.,16.28,311,Espagne,Épuisé
+134,Gâteau au fromage,Signature,Dessert,Vegan,"citron, sucre, meringue",Version équilibrée du classique Gâteau au fromage.,18.82,383,France,Disponible
+135,Macarons assortis,Végétarienne,Dessert,Végétarien,"fraise, mascarpone, biscuits",Un(e) dessert populaire apprécié(e) pour sa saveur authentique.,15.7,210,France,Disponible
+136,Fondant au chocolat,Signature,Dessert,Végétarien,"caramel, lait, beurre",Fondant au chocolat dessert préparé(e) selon une recette traditionnelle de Suisse.,17.96,483,Suisse,Disponible
+137,Coulant au caramel,Signature,Dessert,Végétarien,"pommes, sucre, pâte feuilletée, beurre",Une spécialité tunisie mettant en valeur des ingrédients frais et de qualité.,18.3,274,Tunisie,Disponible
+138,Île flottante,Végétarienne,Dessert,Végétarien,"citron, sucre, meringue",Un(e) dessert populaire apprécié(e) pour sa saveur authentique.,8.18,321,France,Non disponible
+139,Fondant au chocolat,Classique,Dessert,Végétarien,"chocolat noir, œufs, sucre",Recette maison inspirée des saveurs de Tunisie.,14.31,232,Tunisie,Épuisé
+140,Gâteau au fromage,Épicée,Dessert,Épicé,"chocolat noir, œufs, sucre",Version moderne du classique Gâteau au fromage.,10.66,222,Espagne,Non disponible
+141,Sorbet citron,Végétarienne,Dessert,Sans gluten,"chocolat noir, œufs, sucre",Recette maison inspirée des saveurs de Grèce.,18.17,418,Grèce,Non disponible
+142,Crème brûlée,Traditionnelle,Dessert,Gourmet,"chocolat noir, œufs, sucre",Une spécialité maroc mettant en valeur des ingrédients frais et de qualité.,15.3,233,Maroc,Disponible
+143,Tiramisu,Épicée,Dessert,Sans gluten,"caramel, lait, beurre",Recette maison inspirée des saveurs de Espagne.,14.07,420,Espagne,Disponible
+144,Tarte aux fraises,Chef's Special,Dessert,Gourmet,"caramel, lait, beurre",Recette maison inspirée des saveurs de Grèce.,13.42,316,Grèce,Épuisé
+145,Fondant au chocolat,Traditionnelle,Dessert,Sans gluten,"citron, sucre, meringue",Une spécialité maroc mettant en valeur des ingrédients frais et de qualité.,13.12,330,Maroc,Épuisé
+146,Mousse au chocolat,Traditionnelle,Dessert,Classique,"chocolat noir, œufs, sucre",Recette maison inspirée des saveurs de France.,9.16,390,France,Disponible
+147,Île flottante,Classique,Dessert,Épicé,"caramel, lait, beurre",Île flottante dessert préparé(e) selon une recette traditionnelle de Espagne.,12.93,416,Espagne,Non disponible
+148,Tarte Tatin,Végétarienne,Dessert,Épicé,"crème, vanille, œufs",Version raffinée du classique Tarte Tatin.,14.09,279,Tunisie,Non disponible
+149,Gâteau au fromage,Signature,Dessert,Classique,"caramel, lait, beurre",Gâteau au fromage dessert préparé(e) selon une recette traditionnelle de Tunisie.,17.15,493,Tunisie,Disponible
+150,Macarons assortis,Classique,Dessert,Épicé,"citron, sucre, meringue",Macarons assortis dessert préparé(e) selon une recette traditionnelle de Grèce.,10.16,358,Grèce,Épuisé
+151,Fondant au chocolat,Classique,Dessert,Végétarien,"pommes, sucre, pâte feuilletée, beurre",Fondant au chocolat dessert préparé(e) selon une recette traditionnelle de Suisse.,9.7,215,Suisse,Disponible
+152,Tarte aux fraises,Signature,Dessert,Sans gluten,"fraise, mascarpone, biscuits",Un(e) dessert populaire apprécié(e) pour sa saveur authentique.,12.44,366,Maroc,Non disponible
+153,Coulant au caramel,Chef's Special,Dessert,Classique,"pommes, sucre, pâte feuilletée, beurre",Coulant au caramel dessert préparé(e) selon une recette traditionnelle de Italie.,11.27,417,Italie,Épuisé
+154,Coulant au caramel,Traditionnelle,Dessert,Sans gluten,"pommes, sucre, pâte feuilletée, beurre",Une spécialité tunisie mettant en valeur des ingrédients frais et de qualité.,13.16,345,Tunisie,Non disponible
+155,Sorbet citron,Traditionnelle,Dessert,Épicé,"crème, vanille, œufs",Un(e) dessert populaire apprécié(e) pour sa saveur authentique.,12.74,228,Grèce,Disponible
+156,Panna cotta,Végétarienne,Dessert,Végétarien,"pommes, sucre, pâte feuilletée, beurre",Une spécialité suisse mettant en valeur des ingrédients frais et de qualité.,11.94,203,Suisse,Épuisé
+157,Tarte aux fraises,Légère,Dessert,Végétarien,"fraise, mascarpone, biscuits",Version gourmande du classique Tarte aux fraises.,14.7,381,Italie,Disponible
+158,Macarons assortis,Classique,Dessert,Sans gluten,"fraise, mascarpone, biscuits",Une spécialité france mettant en valeur des ingrédients frais et de qualité.,14.91,493,France,Épuisé
+159,Tarte aux fraises,Légère,Dessert,Vegan,"fraise, mascarpone, biscuits",Une spécialité france mettant en valeur des ingrédients frais et de qualité.,10.06,435,France,Non disponible
+160,Fondant au chocolat,Chef's Special,Dessert,Sans gluten,"chocolat noir, œufs, sucre",Recette maison inspirée des saveurs de Suisse.,15.07,468,Suisse,Disponible
+161,Macarons assortis,Végétarienne,Dessert,Gourmet,"pommes, sucre, pâte feuilletée, beurre",Un(e) dessert populaire apprécié(e) pour sa saveur authentique.,8.92,258,Tunisie,Non disponible
+162,Île flottante,Signature,Dessert,Vegan,"citron, sucre, meringue",Un(e) dessert populaire apprécié(e) pour sa saveur authentique.,9.23,331,Tunisie,Disponible
+163,Mousse au chocolat,Maison,Dessert,Gourmet,"pommes, sucre, pâte feuilletée, beurre",Recette maison inspirée des saveurs de France.,17.05,496,France,Épuisé
+164,Sorbet citron,Épicée,Dessert,Gourmet,"pommes, sucre, pâte feuilletée, beurre",Sorbet citron dessert préparé(e) selon une recette traditionnelle de Tunisie.,13.63,355,Tunisie,Épuisé
+165,Coulant au caramel,Classique,Dessert,Vegan,"chocolat noir, œufs, sucre",Recette maison inspirée des saveurs de Espagne.,13.42,229,Espagne,Épuisé
+166,Tiramisu,Chef's Special,Dessert,Gourmet,"chocolat noir, œufs, sucre",Recette maison inspirée des saveurs de Suisse.,14.96,221,Suisse,Épuisé
+167,Coulant au caramel,Signature,Dessert,Vegan,"fraise, mascarpone, biscuits",Coulant au caramel dessert préparé(e) selon une recette traditionnelle de Espagne.,13.41,375,Espagne,Non disponible
+168,Crème brûlée,Maison,Dessert,Classique,"citron, sucre, meringue",Recette maison inspirée des saveurs de Italie.,14.29,281,Italie,Épuisé
+169,Fondant au chocolat,Végétarienne,Dessert,Sans gluten,"crème, vanille, œufs",Une spécialité maroc mettant en valeur des ingrédients frais et de qualité.,8.79,248,Maroc,Non disponible
+170,Sorbet citron,Légère,Dessert,Vegan,"citron, sucre, meringue",Une spécialité tunisie mettant en valeur des ingrédients frais et de qualité.,8.98,272,Tunisie,Épuisé
+171,Tiramisu,Légère,Dessert,Végétarien,"citron, sucre, meringue",Une spécialité espagne mettant en valeur des ingrédients frais et de qualité.,14.71,368,Espagne,Disponible
+172,Sorbet citron,Chef's Special,Dessert,Gourmet,"fraise, mascarpone, biscuits",Sorbet citron dessert préparé(e) selon une recette traditionnelle de Grèce.,12.35,292,Grèce,Disponible
+173,Fondant au chocolat,Traditionnelle,Dessert,Végétarien,"pommes, sucre, pâte feuilletée, beurre",Fondant au chocolat dessert préparé(e) selon une recette traditionnelle de Italie.,11.55,251,Italie,Non disponible
+174,Île flottante,Classique,Dessert,Gourmet,"caramel, lait, beurre",Version gourmande du classique Île flottante.,12.52,283,Tunisie,Disponible
+175,Tarte aux fraises,Maison,Dessert,Gourmet,"chocolat noir, œufs, sucre",Une spécialité maroc mettant en valeur des ingrédients frais et de qualité.,16.12,321,Maroc,Épuisé
+176,Jus de pomme bio,Végétarienne,Boisson,Gourmet,poudre de cacao,Version gourmande du classique Jus de pomme bio.,5.91,250,Suisse,Épuisé
+177,Smoothie banane-fraise,Épicée,Boisson,Gourmet,poudre de cacao,Une spécialité espagne mettant en valeur des ingrédients frais et de qualité.,10.22,178,Espagne,Non disponible
+178,Cappuccino,Maison,Boisson,Végétarien,"thé vert, menthe",Cappuccino boisson préparé(e) selon une recette traditionnelle de Suisse.,9.13,145,Suisse,Non disponible
+179,Café expresso,Chef's Special,Boisson,Vegan,"thé vert, menthe",Recette maison inspirée des saveurs de France.,11.24,87,France,Épuisé
+180,Café expresso,Signature,Boisson,Sans gluten,oranges fraîches,Café expresso boisson préparé(e) selon une recette traditionnelle de Tunisie.,7.17,145,Tunisie,Disponible
+181,Cappuccino,Chef's Special,Boisson,Vegan,oranges fraîches,Cappuccino boisson préparé(e) selon une recette traditionnelle de Italie.,10.71,216,Italie,Épuisé
+182,Thé à la menthe,Maison,Boisson,Classique,poudre de cacao,Recette maison inspirée des saveurs de Tunisie.,7.59,51,Tunisie,Disponible
+183,Jus d’orange pressé,Végétarienne,Boisson,Végétarien,"thé vert, menthe",Jus d’orange pressé boisson préparé(e) selon une recette traditionnelle de Suisse.,10.21,110,Suisse,Épuisé
+184,Café expresso,Classique,Boisson,Végétarien,poudre de cacao,Café expresso boisson préparé(e) selon une recette traditionnelle de Maroc.,10.69,177,Maroc,Non disponible
+185,Soda artisanal,Classique,Boisson,Gourmet,"banane, fraise, lait",Une spécialité espagne mettant en valeur des ingrédients frais et de qualité.,7.43,207,Espagne,Épuisé
+186,Smoothie banane-fraise,Légère,Boisson,Végétarien,café moulu,Smoothie banane-fraise boisson préparé(e) selon une recette traditionnelle de Grèce.,11.63,189,Grèce,Non disponible
+187,Soda artisanal,Classique,Boisson,Sans gluten,poudre de cacao,Recette maison inspirée des saveurs de Suisse.,11.85,114,Suisse,Non disponible
+188,Jus d’orange pressé,Épicée,Boisson,Classique,"banane, fraise, lait",Version raffinée du classique Jus d’orange pressé.,9.88,135,Tunisie,Disponible
+189,Jus d’orange pressé,Épicée,Boisson,Épicé,"thé vert, menthe",Recette maison inspirée des saveurs de Tunisie.,9.05,84,Tunisie,Disponible
+190,Chocolat chaud,Traditionnelle,Boisson,Classique,"banane, fraise, lait",Un(e) boisson populaire apprécié(e) pour sa saveur authentique.,11.09,130,Tunisie,Épuisé
+191,Soda artisanal,Légère,Boisson,Épicé,eau gazeuse,Un(e) boisson populaire apprécié(e) pour sa saveur authentique.,6.29,249,Maroc,Disponible
+192,Milkshake vanille,Épicée,Boisson,Vegan,"citron, sucre, eau",Recette maison inspirée des saveurs de France.,9.95,148,France,Épuisé
+193,Thé à la menthe,Traditionnelle,Boisson,Gourmet,"citron, sucre, eau",Thé à la menthe boisson préparé(e) selon une recette traditionnelle de Maroc.,9.82,70,Maroc,Épuisé
+194,Jus de pomme bio,Maison,Boisson,Épicé,"citron, sucre, eau",Jus de pomme bio boisson préparé(e) selon une recette traditionnelle de Tunisie.,6.62,125,Tunisie,Épuisé
+195,Jus de mangue,Légère,Boisson,Végétarien,poudre de cacao,Recette maison inspirée des saveurs de Grèce.,4.34,140,Grèce,Non disponible
+196,Cappuccino,Végétarienne,Boisson,Gourmet,oranges fraîches,Recette maison inspirée des saveurs de Suisse.,6.91,241,Suisse,Non disponible
+197,Thé à la menthe,Classique,Boisson,Végétarien,poudre de cacao,Un(e) boisson populaire apprécié(e) pour sa saveur authentique.,4.54,249,Suisse,Non disponible
+198,Limonade maison,Épicée,Boisson,Sans gluten,oranges fraîches,Recette maison inspirée des saveurs de Espagne.,11.59,145,Espagne,Épuisé
+199,Café expresso,Maison,Boisson,Épicé,"lait, vanille",Une spécialité tunisie mettant en valeur des ingrédients frais et de qualité.,6.0,79,Tunisie,Disponible
+200,Chocolat chaud,Maison,Boisson,Sans gluten,"lait, vanille",Une spécialité espagne mettant en valeur des ingrédients frais et de qualité.,10.2,230,Espagne,Épuisé
+201,Smoothie banane-fraise,Végétarienne,Boisson,Gourmet,"banane, fraise, lait",Un(e) boisson populaire apprécié(e) pour sa saveur authentique.,10.82,165,Maroc,Disponible
+202,Chocolat chaud,Traditionnelle,Boisson,Classique,"citron, sucre, eau",Chocolat chaud boisson préparé(e) selon une recette traditionnelle de Suisse.,8.4,124,Suisse,Épuisé
+203,Thé à la menthe,Maison,Boisson,Vegan,"banane, fraise, lait",Un(e) boisson populaire apprécié(e) pour sa saveur authentique.,10.34,110,Espagne,Épuisé
+204,Jus d’orange pressé,Épicée,Boisson,Épicé,"citron, sucre, eau",Version moderne du classique Jus d’orange pressé.,5.04,72,Espagne,Disponible
+205,Eau minérale,Légère,Boisson,Gourmet,poudre de cacao,Recette maison inspirée des saveurs de Grèce.,10.59,68,Grèce,Disponible
+206,Limonade maison,Chef's Special,Boisson,Sans gluten,"citron, sucre, eau",Version gourmande du classique Limonade maison.,9.12,96,Maroc,Disponible
+207,Cappuccino,Classique,Boisson,Classique,"thé vert, menthe",Un(e) boisson populaire apprécié(e) pour sa saveur authentique.,5.3,231,Espagne,Disponible
+208,Limonade maison,Végétarienne,Boisson,Classique,"banane, fraise, lait",Un(e) boisson populaire apprécié(e) pour sa saveur authentique.,9.0,207,Tunisie,Non disponible
+209,Café expresso,Maison,Boisson,Épicé,"thé vert, menthe",Version gourmande du classique Café expresso.,9.77,204,Espagne,Épuisé
+210,Jus de pomme bio,Classique,Boisson,Classique,oranges fraîches,Un(e) boisson populaire apprécié(e) pour sa saveur authentique.,10.14,156,France,Non disponible
+211,Milkshake vanille,Classique,Boisson,Sans gluten,eau gazeuse,Recette maison inspirée des saveurs de Grèce.,5.96,225,Grèce,Épuisé
+212,Eau minérale,Traditionnelle,Boisson,Classique,oranges fraîches,Recette maison inspirée des saveurs de Grèce.,7.32,168,Grèce,Disponible
+213,Limonade maison,Maison,Boisson,Vegan,"citron, sucre, eau",Recette maison inspirée des saveurs de Suisse.,5.05,144,Suisse,Non disponible
+214,Soda artisanal,Chef's Special,Boisson,Vegan,poudre de cacao,Une spécialité italie mettant en valeur des ingrédients frais et de qualité.,7.6,86,Italie,Disponible
+215,Jus d’orange pressé,Végétarienne,Boisson,Sans gluten,"lait, vanille",Un(e) boisson populaire apprécié(e) pour sa saveur authentique.,10.51,197,Suisse,Non disponible
+216,Limonade maison,Signature,Boisson,Végétarien,poudre de cacao,Une spécialité maroc mettant en valeur des ingrédients frais et de qualité.,7.98,73,Maroc,Épuisé
+217,Soda artisanal,Traditionnelle,Boisson,Végétarien,"citron, sucre, eau",Soda artisanal boisson préparé(e) selon une recette traditionnelle de Italie.,6.25,202,Italie,Non disponible
+218,Milkshake vanille,Traditionnelle,Boisson,Vegan,oranges fraîches,Recette maison inspirée des saveurs de Espagne.,5.07,117,Espagne,Non disponible
+219,Limonade maison,Légère,Boisson,Vegan,"lait, vanille",Version raffinée du classique Limonade maison.,8.49,142,France,Non disponible
+220,Eau minérale,Chef's Special,Boisson,Sans gluten,poudre de cacao,Version équilibrée du classique Eau minérale.,9.44,80,Espagne,Disponible
+221,Café expresso,Légère,Boisson,Vegan,"citron, sucre, eau",Un(e) boisson populaire apprécié(e) pour sa saveur authentique.,5.59,180,Suisse,Épuisé
+222,Soda artisanal,Classique,Boisson,Classique,"thé vert, menthe",Recette maison inspirée des saveurs de France.,8.15,88,France,Non disponible
+223,Soda artisanal,Maison,Boisson,Vegan,"citron, sucre, eau",Recette maison inspirée des saveurs de Espagne.,11.92,239,Espagne,Épuisé
+224,Jus de pomme bio,Épicée,Boisson,Épicé,poudre de cacao,Recette maison inspirée des saveurs de Suisse.,10.53,144,Suisse,Épuisé
+225,Milkshake vanille,Chef's Special,Boisson,Sans gluten,eau gazeuse,Version raffinée du classique Milkshake vanille.,7.8,217,Espagne,Non disponible
