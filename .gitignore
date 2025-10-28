@@ -1,15 +1,14 @@
-# Virtual environment files
+# Virtual environment
 Include/
 Lib/
 Scripts/
-var/
 pyvenv.cfg
+.pysache/
 
-# Python cache
+# Python caches
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
 
-# Environment variables
-.env
+# Other ignores (add if needed)
+*.log

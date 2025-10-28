@@ -1,30 +1,73 @@
 from flask import Flask, jsonify, request
-## from flask_sqlalchemy import SQLAlchemy
 from models import User, db, FoodItem
 from flask_cors import CORS
 from flask_jwt_extended import JWTManager, create_access_token, jwt_required, get_jwt_identity
 import os
-
+from flask_sqlalchemy import SQLAlchemy
 
 
 app = Flask(__name__)
 
 CORS(app)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:Mokhtar1.@localhost:5432/restaurantdb'
-## db = SQLAlchemy(app)
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-## app.config['JSON_SORT_KEYS'] = False
-## app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
-## app.config['JSON_AS_ASCII'] = False
 
-app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL', 'sqlite:///fallback.db')
+# -------------------------------
+# Database configuration
+# -------------------------------
+if os.getenv("DOCKER_ENV"):
+    # Inside Docker
+    DB_URI = "postgresql://postgres:Mokhtar1.@postgres:5432/restaurantdb"
+else:
+    # Local environment
+    DB_URI = "postgresql://postgres:Mokhtar1.@localhost:5432/restaurantdb"
 
-app.config["JWT_SECRET_KEY"] = "super-secret-key"  # change this in production
+app.config["SQLALCHEMY_DATABASE_URI"] = DB_URI
+app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+
+# Initialize SQLAlchemy
+db.init_app(app)
+
+# -------------------------------
+# JWT configuration
+# -------------------------------
+import secrets
+
+_jwt_secret = os.environ.get("JWT_SECRET_KEY") or os.environ.get("SECRET_KEY") or os.environ.get("FLASK_SECRET_KEY")
+if not _jwt_secret:
+    # Generate a temporary secret for development if none provided.
+    # In production you MUST set JWT_SECRET_KEY (or SECRET_KEY) via environment variables.
+    _jwt_secret = secrets.token_urlsafe(32)
+    print("⚠️  No JWT_SECRET_KEY/SECRET_KEY found in environment — using a generated temporary secret. Set JWT_SECRET_KEY in env for production.")
+
+app.config["JWT_SECRET_KEY"] = _jwt_secret
+# Ensure Flask's SECRET_KEY is set as well (some extensions/readers expect it)
+app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY") or app.config.get("SECRET_KEY") or _jwt_secret
+
 jwt = JWTManager(app)
 
-db.init_app(app)
-with app.app_context():
-    db.create_all()
+# -------------------------------
+# Database initialization function
+# -------------------------------
+def initialize_database(app):
+    """Create tables and sanity-check DB connection."""
+    print("🏗️ Initializing database...")
+    with app.app_context():
+        try:
+            db.engine.connect()
+            print("✅ Database connection successful")
+
+            db.create_all()
+            print("✅ Database tables created/verified")
+
+            count = FoodItem.query.count()
+            print(f"📊 Current food items in database: {count}")
+            return True
+        except Exception as e:
+            print(f"❌ Database initialization error: {str(e)}")
+            raise
+
+# Automatically initialize DB only in local CLI mode
+if os.environ.get("FLASK_RUN_FROM_CLI"):
+    initialize_database(app)
 
 ## starters=[{"name": "Salade César", "price" : 20, "type" : "Entrée"}, {"name": "Soupe à l'oignon", "price" : 15, "type" : "Entrée"}]
 ## main_courses=[{"name": "Steak frites", "price" : 40, "type" : "Plat"}, {"name": "Poulet rôti", "price" : 35, "type" : "Plat"}]
@@ -54,18 +97,54 @@ def add_dish():
     if not user or user.role != "manager":
         return jsonify({"msg": "Unauthorized"}), 403
     
-    new_dish = request.get_json()
-    if new_dish["course"] == "Entrée":
-        FoodItem.query.filter_by(course="Entrée").all().append(new_dish)
-        return jsonify(new_dish), 201
-    elif new_dish["course"] == "Plat":
-        FoodItem.query.filter_by(course="Plat").all().append(new_dish)
-        return jsonify(new_dish), 201
-    elif new_dish["course"] == "Dessert":
-        FoodItem.query.filter_by(course="Dessert").all().append(new_dish)
-        return jsonify(new_dish), 201
-    else:
-        return jsonify({"error": "Type de plat invalide"}), 400
+    data = request.get_json() or {}
+    
+    # Required fields validation
+    required_fields = ['name', 'course']
+    for field in required_fields:
+        if not data.get(field):
+            return jsonify({"error": f"Field '{field}' is required"}), 400
+
+    # Type conversion for numeric fields
+    try:
+        price = float(data['price']) if data.get('price') else None
+        calories = int(data['calories']) if data.get('calories') and data['calories'] != '' else None
+    except (ValueError, TypeError):
+        return jsonify({"error": "Invalid value for price (must be a number) or calories (must be an integer)"}), 400
+
+    # Get the next available ID
+    try:
+        max_id = db.session.query(db.func.max(FoodItem.id)).scalar() or 0
+        next_id = max_id + 1
+    except Exception as e:
+        print(f"❌ Failed to get next ID: {e}")
+        return jsonify({"error": "Failed to generate new ID"}), 500
+
+    # Create FoodItem and persist to DB
+    item = FoodItem(
+            id=next_id,  # Explicitly set the next available ID
+            name=data['name'],
+            variant=data.get('variant') or None,
+            course=data['course'],
+            ingredients=data.get('ingredients'),
+            description=data.get('description'),
+            price=price,
+            category=data.get('category'),
+            country_origin=data.get('country_origin') or None,
+            availability=data.get('availability', 'Disponible'),
+            calories=calories
+    )
+
+    db.session.add(item)
+    try:
+        db.session.commit()
+    except Exception as e:
+        # Rollback and return a clear error message instead of crashing
+        db.session.rollback()
+        print(f"❌ Failed to add dish: {e}")
+        return jsonify({"error": "Failed to add dish", "details": str(e)}), 500
+
+    return jsonify(item.to_dict()), 201
     
 @app.put("/update_dish/<int:dish_id>")
 @jwt_required()
@@ -173,3 +252,41 @@ def protected():
     user_id = get_jwt_identity()
     user = User.query.get(int(user_id))
     return jsonify({"message": "Access granted", "user": user.to_dict()}), 200
+
+def init_db(retries=5, delay=5):
+    import time
+    from sqlalchemy.exc import OperationalError
+    
+    for attempt in range(retries):
+        try:
+            with app.app_context():
+                db.create_all()
+                from import_data import import_csv_data
+                import_csv_data()
+                # Ensure Postgres sequence for food_items.id is set to max(id)+1
+                try:
+                    # Set the sequence last_value to the current max(id).
+                    # Using is_called = true so nextval() returns max(id)+1.
+                    seq_sql = (
+                        "SELECT setval(pg_get_serial_sequence('food_items','id'), "
+                        "COALESCE((SELECT MAX(id) FROM food_items), 0), true);"
+                    )
+                    db.session.execute(seq_sql)
+                    db.session.commit()
+                    print("✅ food_items sequence synced to max(id)")
+                except Exception as seq_e:
+                    # Non-fatal: log and continue. This may happen on SQLite or non-Postgres DBs.
+                    db.session.rollback()
+                    print(f"⚠️ Could not sync food_items sequence: {seq_e}")
+            print("Database initialized successfully!")
+            return
+        except OperationalError as e:
+            if attempt + 1 == retries:
+                print(f"Could not connect to database after {retries} attempts. Error: {e}")
+                raise
+            print(f"Database connection attempt {attempt + 1} failed. Retrying in {delay} seconds...")
+            time.sleep(delay)
+
+if __name__ == "__main__":
+    init_db()
+    app.run(host="0.0.0.0", port=5000, debug=True)

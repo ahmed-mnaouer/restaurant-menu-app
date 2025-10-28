@@ -1,43 +1,41 @@
-version: "3.9"
+version: '3.8'
 
 services:
   postgres:
     image: postgres:16
+    container_name: restaurant_postgres
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: mydb
+      POSTGRES_PASSWORD: Mokhtar1.
+      POSTGRES_DB: restaurantdb
     volumes:
       - postgres_data:/var/lib/postgresql/data
     ports:
       - "5432:5432"
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres"]
-      interval: 5s
-      timeout: 5s
-      retries: 5
 
   backend:
     build: .
-    depends_on:
-      postgres:
-        condition: service_healthy
+    container_name: restaurant_backend
     environment:
-      - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/mydb
-      - FLASK_ENV=production
+      FLASK_ENV: docker
+      DOCKER_ENV: 1
+      DATABASE_URL: postgresql://postgres:Mokhtar1.@postgres:5432/restaurantdb
+    depends_on:
+      - postgres
     ports:
       - "5000:5000"
-    command: gunicorn -b 0.0.0.0:5000 app:app
-    restart: always
 
   frontend:
     build: ./frontend
+    container_name: restaurant_frontend
+    command: ["npm", "start"]
+    working_dir: /app
+    volumes:
+      - ./frontend:/app
     ports:
       - "3000:3000"
     depends_on:
       - backend
-    environment:
-      - REACT_APP_API_URL=http://localhost:5000
 
 volumes:
   postgres_data:

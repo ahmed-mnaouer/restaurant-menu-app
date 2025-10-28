@@ -7,8 +7,10 @@ db = SQLAlchemy()
 class FoodItem(db.Model):
     __tablename__ = 'food_items'
 
-    id = db.Column(db.Integer, primary_key=True)
+    # Ensure the primary key uses the database/autoincrement sequence
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     name = db.Column(db.String(100), nullable=False)
+    variant = db.Column(db.String(100), nullable=True)
     course = db.Column(db.String(50), nullable=False)
     ingredients = db.Column(db.Text)
     description = db.Column(db.Text)
@@ -22,6 +24,7 @@ class FoodItem(db.Model):
         return {
             "id": self.id,
             "name": self.name,
+            "variant": self.variant,
             "course": self.course,
             "ingredients": self.ingredients,
             "description": self.description,

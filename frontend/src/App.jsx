@@ -79,17 +79,24 @@ function Home() {
 function Menu() {
   const [menu, setMenu] = React.useState([]);
 
-  React.useEffect(() => {
+  useEffect(() => {
     axios
       .get("http://127.0.0.1:5000/menu")
       .then((res) => {
-        // Combine all 3 categories into a single list for display
-        const allDishes = [
-          ...res.data.starters,
-          ...res.data.main_courses,
-          ...res.data.desserts,
-        ];
-        setMenu(allDishes);
+        const data = res.data || {};
+        if (data.starters || data.main_courses || data.desserts) {
+          setMenu([
+            ...(data.starters || []),
+            ...(data.main_courses || []),
+            ...(data.desserts || []),
+          ]);
+        } else if (Array.isArray(data)) {
+          setMenu(data);
+        } else if (data.menu) {
+          setMenu(data.menu);
+        } else {
+          setMenu([]);
+        }
       })
       .catch((err) => console.error("Error fetching menu:", err));
   }, []);
@@ -451,7 +458,9 @@ function Dashboard() {
         <table className="min-w-full bg-white rounded-xl shadow">
           <thead>
             <tr className="bg-gray-200 text-left">
+              <th className="p-2">ID</th>
               <th className="p-2">Nom</th>
+              <th className="p-2">Variante</th>
               <th className="p-2">Type</th>
               <th className="p-2">Prix (€)</th>
               <th className="p-2">Disponibilité</th>
@@ -461,7 +470,9 @@ function Dashboard() {
           <tbody>
             {menu.map((dish) => (
               <tr key={dish.id} className="border-t">
+                <td className="p-2">{dish.id}</td>
                 <td className="p-2">{dish.name}</td>
+                <td className="p-2">{dish.variant}</td>
                 <td className="p-2">{dish.course}</td>
                 <td className="p-2">{dish.price}</td>
                 <td className="p-2">{dish.availability}</td>
