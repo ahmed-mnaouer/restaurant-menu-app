@@ -69,6 +69,8 @@ docker-compose up --build
 > Authorization: Bearer <jwt_token>
 > ```
 
+--- 
+
 ## Author
 ### Ahmed Mnaouer
 📊 Data Science & Business Analytics Enthusiast
