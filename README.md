@@ -27,16 +27,15 @@ A small full-stack project where **customers** can create an account and view th
 
 ```
 RestaurantMenuProject/
-├── myenv/
-│ ├── app.py
-│ ├── models.py
-│ ├── import_data.py
-│ ├── requirements.txt
-│ └── Dockerfile
+├── app.py
+├── models.py
+├── import_data.py
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
 ├── frontend/
 │ ├── src/
 │ └── Dockerfile
-├── docker-compose.yml
 └── restaurant_menu_refined.csv
 ```
 
