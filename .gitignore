@@ -1,14 +1,31 @@
-# Virtual environment
-Include/
-Lib/
-Scripts/
-pyvenv.cfg
-.pysache/
+# Python Virtual Environments
+venv/
+myenv/
+.env/
+ENV/
 
-# Python caches
+# Python cache files
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 
-# Other ignores (add if needed)
+# Logs and temporary files
 *.log
+*.tmp
+
+# IDE and editor folders
+.vscode/
+.idea/
+
+# Unit test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment and config files
+*.env
+
+# macOS & Windows specific
+.DS_Store
+Thumbs.db
